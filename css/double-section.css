@@ -1,0 +1,9 @@
+.double-section{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.double-section__certificates{
+  max-width: 64%;
+}

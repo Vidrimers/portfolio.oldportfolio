@@ -1,0 +1,130 @@
+/* 1170(slg) 992(lg) 768(md) 576(sm) 320(xs) */
+@media screen and (max-width: 767px) {
+  .section-title{
+    text-align: center;
+  }
+.about{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.about__block--left {
+  flex-direction: column;
+  margin: auto;
+}
+.about__photo{
+  max-height: 100%;
+  margin-bottom: 1rem;
+  order: 1;
+}
+.about__contacts{
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+.about__contacts--link{
+  width: 3rem;
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+.about__contacts--ico {
+  max-width: 100%;
+  filter: none;
+}
+.about__contacts--ico:hover {
+  filter: none;
+  transition: none;
+}
+.about__block--right{
+  text-align: center;
+  max-width: 100%;
+}
+.about__description {
+  margin-bottom: 1rem;
+}
+.about__description p{
+margin-bottom: 1rem;
+}
+.about__story p{
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.about__skills-title{
+  margin-bottom: 1rem;
+}
+.about__skills {
+  justify-content: center;
+  /* max-width: 100%; */
+}
+.portfolio{
+  margin-bottom: 2rem;
+}
+.tabs-content__item--active{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.double-section{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.double-section__item{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.double-section__certificates{
+  max-width: 100%;
+}
+
+.courses{
+  width: 100%;
+}
+.certificates__slider{
+  margin: 0 auto;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 575px) {
+  .tabs-links__item{
+    padding: .3rem 2rem;
+  }
+
+  .tabs-content__item--active{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .about__skills--item {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .tabs-links__item{
+    font-size: 1rem;
+    /* line-height: 1; */
+    /* font-weight: 400; */
+    padding: .3rem 0rem;
+
+  }
+  .courses__item{
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+}
+@media screen and (max-width: 319px) {
+  .about__skills{
+    margin: 0 auto;
+  }
+  .about__skills--item {
+    text-align: center;
+    font-size: 1.2rem;
+    /* line-height: 1.2; */
+    padding: .2rem .5rem;
+  }
+}

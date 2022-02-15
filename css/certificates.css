@@ -1,0 +1,14 @@
+.certificates__slider{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+  
+}
+
+.certificates__link{
+  display: flex;
+  padding: .5rem;
+}
+.certificates__item--img{
+  max-width: 100%;
+}
